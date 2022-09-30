@@ -305,22 +305,25 @@ int main()
 		list.erase(list.begin());
 
 	}
-
+	Creating_Vector_Of_Data<char>("+", "char", list);
 	Creating_Vector_Of_Data<int>("+", "int", list);
 	Creating_Vector_Of_Data<float>("+", "float", list);
 	Creating_Vector_Of_Data<long>("+", "long", list);
 	Creating_Vector_Of_Data<double>("+", "double", list);
 
+	Creating_Vector_Of_Data<char>("-", "char", list);
 	Creating_Vector_Of_Data<int>("-", "int", list);
 	Creating_Vector_Of_Data<float>("-", "float", list);
 	Creating_Vector_Of_Data<long>("-", "long", list);
 	Creating_Vector_Of_Data<double>("-", "double", list);
 
+	Creating_Vector_Of_Data<char>("*", "char", list);
 	Creating_Vector_Of_Data<int>("*", "int", list);
 	Creating_Vector_Of_Data<float>("*", "float", list);
 	Creating_Vector_Of_Data<long>("*", "long", list);
 	Creating_Vector_Of_Data<double>("*", "double", list);
 
+	Creating_Vector_Of_Data<char>("/", "char", list);
 	Creating_Vector_Of_Data<int>("/", "int", list);
 	Creating_Vector_Of_Data<float>("/", "float", list);
 	Creating_Vector_Of_Data<long>("/", "long", list);
